@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-span-2 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{$review->movie}}
+                            {{$review->movie->title}}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">

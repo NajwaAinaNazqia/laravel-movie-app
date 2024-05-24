@@ -15,7 +15,7 @@ class ReviewSeeder extends Seeder
     {
         Review::create([
             'id' => 1,
-            'movie' => 'A Silence Voice',
+            'movie_id' => 1,
             'poster' => 'movie1.jpg',
             'user' => 'Firestorm',
             'rating' => '8.1',
@@ -24,7 +24,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 2,
-            'movie' => 'Haikyuu!',
+            'movie_id' => 2,
             'poster' => 'movie2.jpg',
             'user' => 'Zaynn',
             'rating' => '8.4',
@@ -33,7 +33,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 3,
-            'movie' => 'Demon Slayer',
+            'movie_id' => 3,
             'poster' => 'movie3.jpg',
             'user' => 'Robbins',
             'rating' => '8.6',
@@ -42,7 +42,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 4,
-            'movie' => 'Naruto',
+            'movie_id' => 1,
             'poster' => 'movie4.jpg',
             'user' => 'Blubiess',
             'rating' => '8.9',
@@ -51,7 +51,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 5,
-            'movie' => 'Tokyo Ghoul',
+            'movie_id' => 2,
             'poster' => 'movie5.jpg',
             'user' => 'Alaningle',
             'rating' => '9.1',

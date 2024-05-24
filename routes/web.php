@@ -15,6 +15,6 @@ Route::get('/products', function () {
     return view('product');
 });
 
-Route::get('/genres', [GenreController::class,'index']);
+Route::get('/genres', [GenreController::class,'genre']);
 
-Route::get('/reviews', [ReviewController::class,'index']);
+Route::get('/reviews', [ReviewController::class,'review']);

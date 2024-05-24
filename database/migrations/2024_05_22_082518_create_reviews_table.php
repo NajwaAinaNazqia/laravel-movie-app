@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->string('movie');
+            $table->string('movie_id');
             $table->string('poster');
             $table->string('user');
             $table->string('rating');
-            $table->string('date');
+            $table->string('date')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('reviews');
+        Schema::dropIfExists('movies');
     }
 };
