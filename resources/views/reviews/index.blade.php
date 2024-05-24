@@ -47,31 +47,31 @@
                     <div class="col-span-2 flex items-center">
                         <div class="col-span-1 flex items-center">
                             <p class="text-sm font-medium text-black dark:text-white">
-                                {{$review['id']}}
+                                {{$review->id}}
                             </p>
                         </div>
                         <div class="w-16 ml-14 rounded-md">
-                            <img src="src/images/movie/{{$review['poster']}}"/>
+                            <img src="src/images/movie/{{$review->poster}}"/>
                         </div>
                     </div>
                     <div class="col-span-2 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{$review['movie']}}
+                            {{$review->movie}}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{$review['user']}}
+                            {{$review->user}}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{$review['rating']}}
+                            {{$review->rating}}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{$review['date']}}
+                            {{$review->date}}
                        </p>
                     </div>
                     <div class="col-span-1 flex items-center">
