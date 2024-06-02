@@ -42,7 +42,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 4,
-            'movie_id' => 1,
+            'movie_id' => 4,
             'poster' => 'movie4.jpg',
             'user' => 'Blubiess',
             'rating' => '8.9',
@@ -51,7 +51,7 @@ class ReviewSeeder extends Seeder
 
         Review::create([
             'id' => 5,
-            'movie_id' => 2,
+            'movie_id' => 5,
             'poster' => 'movie5.jpg',
             'user' => 'Alaningle',
             'rating' => '9.1',
