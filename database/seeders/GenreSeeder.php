@@ -15,7 +15,7 @@ class GenreSeeder extends Seeder
     {
         Genre::create([
             'name'=> 'Drama',
-            'description'=>'Fokus pada konflik emosional dan perubahan karakter dalam sebuah cerita. Biasanya melibatkan pertentangan manusiawi dan situasi yang mengharukan.',
+            'description'=>'Fokus pada konflik emosional dan perubahan karakter dalam sebuah cerita. Biasanya melibatkan pertentangan manusiawi atau situasi yang mengharukan.',
         ]);
 
         Genre::create([
