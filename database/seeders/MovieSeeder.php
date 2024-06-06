@@ -18,7 +18,7 @@ class MovieSeeder extends Seeder
             'title'=> 'Jojo Bizzare Adventure',
             'genre_id'=> '1',
             'poster'=> 'movie-01.jpg',
-            'synopsis'=> 'Jojo Bizzare Adventure is a story about',
+            'synopsis'=> 'Jojo Bizzare Adventure is a story about the joestar family, who are possessed with intense psychic strength',
         ]);
 
         Movie::create([
